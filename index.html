@@ -2,69 +2,254 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jesus Chacón</title>
-    <link rel="shortcut icon" href="icon/icon.png" type="image/x-icon"> 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <title>Steeven Chacón</title>
+    <link rel="shortcut icon" href="../PerfilProfesional/images/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="../PerfilProfesional/css/normalize.css">
+    <link rel="stylesheet" href="../PerfilProfesional/css/style.css">
 </head>
 <body>
+    <!-- front page -->
     <header class="person">
         <nav class="nav container">
-            <!--.nav_logo>h2.nav_title{Jesus Chacon}-->
             <div class="nav_logo">
-                <h2 class="nav_title">Jesus Chacon</h2>
+                <h2 class="nav_title">Steeven Chacón</h2>
             </div>
-            <ul class="nav_link nav_link--menu">
+            <!-- ul.nav_link.nav_link_menu>(li.nav_items>a.nav_links{Texto})*4 -->
+            <ul class="nav_link nav_link_menu">
+                <!-- <li class="nav_items">
+                    <a href="#" class="nav_links">Inicio</a>
+                </li> -->
                 <li class="nav_items">
-                <a href="#" class="nav_links">texto</a>  
+                    <a href="#about" class="nav_links">Acerca de</a>
                 </li>
-
                 <li class="nav_items">
-                <a href="#" class="nav_links">texto</a>  
+                    <a href="#contact" class="nav_links">Contacto</a>
                 </li>
-
                 <li class="nav_items">
-                <a href="#" class="nav_links">texto</a> 
+                    <a href="#references" class="nav_links">Referencias</a>
                 </li>
-
                 <li class="nav_items">
-                <a href="#" class="nav_links">texto</a>    
+                    <a href="#questions" class="nav_links">Preguntas</a>
                 </li>
-                <img src="icon/exit.svg" alt="exit">
+                <li class="nav_items">
+                    <a href="#social_media" class="nav_links">Redes Sociales</a>
+                </li>
+                <img src="../PerfilProfesionalicons/exit.svg" alt="Icon Exit" class="nav_close">
             </ul>
+            <div class="nav_menu">
+                <img src="../PerfilProfesional/icons/exit.svg" alt="Icon Menu" class="nav_img">
+            </div>
         </nav>
         <section class="person_container container">
-            <h1 class="persons">Jesús Chacón</h1>
-            <p class="person_paragraph">Técnico de refrigeración</p>
-            <a href="#" class="btn">Haz click</a>
-
+            <h1 class="person_title">Steeven Chacón</h1>
+            <p class="person_paragraph">Ingeniero de Sistemas (el mejor ingeniero)</p>
+            <a href="#" class="btn">Haz Click</a>
         </section>
     </header>
+
+    <!-- options -->
     <main>
-        <!--section about-->
-        <section class="container about">
-            <h2 class="subtitle">Lorem, ipsum.</h2>
-           
-            <p class="about_paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil facere voluptate fuga nulla eligendi magnam numquam in ipsum culpa dolore, blanditiis ipsam doloremque hic quas ipsa quos voluptatem consequuntur temporibus.</p>
+        <section class="container about" id="about">
+            <h2 class="subtitle">Steeven Chacón - Ingeniero en sistemas en proceso</h2>
+            <p class="about_paragraph">¡Hola! Soy Steeven Chacón, un estudiante de ingenieria de sistemas q cada dia se sigue esforzando por ser mejor q si mismo.</p>
             <div class="about_main">
+                <!-- (article.about_icons>img.about_icon+h3.about_title+p.about_paragraph)*3 -->
                 <article class="about_icons">
-                    <img src="./icon/exit.svg" alt="icon" class="about_icon">
-                    <h3 class="about_title">Lorem, ipsum.</h3>
-                    <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, mollitia soluta veniam eaque cum maxime similique molestias enim excepturi sed.</p>
+                    <img src="icons/menu.svg" alt="Icon" class="about_icon">
+                    <h3 class="about_title">Educación</h3>
+                    <p class="about_paragraph">En la actualidad soy estudiante activo de la carrera ingeniera en sistemas en la universidad Francisco de Paula Santander seccional Ocaña.</p>
                 </article>
                 <article class="about_icons">
-                    <img src="./icon/exit.svg" alt="icon" class="about_icon">
-                    <h3 class="about_title">Lorem, ipsum.</h3>
-                    <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, mollitia soluta veniam eaque cum maxime similique molestias enim excepturi sed.</p>
+                    <img src="icons/menu.svg" alt="Icon" class="about_icon">
+                    <h3 class="about_title">Áreas de Interés</h3>
+                    <p class="about_paragraph">Soy un gran desarrollador web fascinado por las IA, la ciberseguridad y la programación enfocada objetos además del desarrollo de videojuegos.</p>
                 </article>
                 <article class="about_icons">
-                    <img src="./icon/exit.svg" alt="icon" class="about_icon">
-                    <h3 class="about_title">Lorem, ipsum.</h3>
-                    <p class="about_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, mollitia soluta veniam eaque cum maxime similique molestias enim excepturi sed.</p>
+                    <img src="icons/menu.svg" alt="Icon" class="about_icon">
+                    <h3 class="about_title">Comprometido con la autosuperación</h3>
+                    <p class="about_paragraph">Como estudiante comprometido, busco oportunidades para aprender y mejorar constantemente. Participo activamente en actividades, cursos en línea, grupos estudiantiles para mantenerme actualizado sobre las últimas tendencias tecnológicas.</p>
                 </article>
+            </div>
+        </section>
+        
+        <section class="options" id="contact">
+            <div class="options_container container">
+                <div class="options_texts">
+                    <h2 class="subtitle">Contactame.</h2>
+                    <p class="options_paragraph">
+                        Para ponernos en contacto e informarte un poco mejor respecto a temas de interes, puedes acercarte a traves de los siguientes medios: 
+                        <nav>
+                            <ul>
+                                <li>LinkedIn: <a href="https://www.linkedin.com/in/steeven-chac%C3%B3n-5536a4288/">Steeven Chacón</a></li>
+                                <li>Correo Electrónico: <a href="#">steevenjc506@gmail.com</a></li>
+                                <li>GitHub: <a href="https://github.com/Steeven506">Repositorio en git.</a></li>
+                                <li>Instagram: <a href="https://www.instagram.com/toshiro_506/">@Toshiro_506</a></li>
+                            </ul>
+                        </nav>
+                        <br>
+                        !No dudes en contactarme¡
+                    </p>
+                </div>
+                <figure class="options_picture">
+                    <img src="../PerfilProfesional/images/ingeniero.jpg" alt="Imagen Options" class="options_img">
+                </figure>
+            </div>
+        </section>
+
+        <section class="testimony" id="references">
+            <div class="testimony_container container">
+                
+                <img src="icons/leftarrow.svg" alt="Icon Flecha" class="testimony_arrow" id="before">                
+                
+                <section class="testimony_body testimony_body--show" data-id="1">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Steeven Chacón
+                            <span class="testimony_course">estudiante de UFPSO</span>
+                        </h2>
+                        <p class="testimony__review">Bienvenido a mi perfil Profesional, aquí encontraras todo sobre mi.</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="../PerfilProfesional/images/us2.jpg" alt="Foto Persona" class="testimony_img">
+                    </figure>
+                </section>
+                
+                <section class="testimony_body" data-id="2">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mis progresos
+                            <span class="testimony_course">dentro de la carrera</span>
+                        </h2>
+                        <p>Cuando inicie, no me sentia lo suficientemente bueno como para hacerle cara a la ingenieria, pero con el paso del tiempo mi pasion me llevo a cada dia mejorar y sacarle muco provecho a mis conocimientos.</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="images/sistemas_two.jpg" alt="Foto Persona" class="testimony_img">
+                    </figure>
+                </section>
+
+                <section class="testimony_body" data-id="3">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Bienvenido al apasionante mundo de la
+                            <span class="testimony_course">Ingenieria de Sistemas</span>
+                        </h2>
+                        <p>La ingeniería de sistemas es una disciplina que aplica principios de ingeniería para diseñar, implementar y gestionar sistemas complejos. Se enfoca en integrar eficientemente componentes y procesos para lograr soluciones efectivas a problemas tecnológicos y organizativos. Este campo abarca desde el análisis de requisitos hasta el mantenimiento del sistema, asegurando su funcionalidad y eficacia a lo largo del tiempo.</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="images/sistemas_one.jpg" alt="Foto Persona" class="testimony_img">
+                    </figure>
+                </section>
+
+                <section class="testimony_body" data-id="4">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Conoce mas acerca de el 
+                            <span class="testimony_course">desarrollo de aplicaciones web</span>
+                        </h2>
+                        <p>El desarrollo de aplicaciones web implica crear software que funciona en navegadores. Utiliza lenguajes como HTML, CSS y JavaScript, frameworks como React o Angular, y tecnologías del lado del servidor como Node.js. El proceso abarca planificación, diseño, implementación y mejoras continuas para garantizar un rendimiento óptimo.</p>
+                    </div>
+                    <figure class="testimony_picture">
+                        <img src="images/desarrollo_uno.png" alt="Foto Persona" class="testimony_img">
+                    </figure>
+                </section>
+
+                <img src="icons/rightarrow.svg" alt="Icon Flecha" class="testimony_arrow" id="next">                
+
+            </div>
+        </section>
+
+        <section class="questions" id="questions">
+            <div class="container">
+                <h2 class="subtitle">Conoce mas acerca de mi</h2>
+                <p class="questions_paragraph"></p>
+
+                <section class="questions_container">
+                    <article class="questions_padding">
+                        <div class="questions_answer">
+                            <h3 class="questions_title">¿Por qué decidi estudiar Ing. Sistemas?
+                                <span class="questions_arrow">
+                                    <img src="icons/arrow.svg" class="questions_img">
+                                </span>
+                            </h3>
+
+                            <p class="questions_show">
+                                Opté por cursar la ingeniería de sistemas debido a mi apasionado interés por la tecnología. Me entusiasma la perspectiva de crear software, ya que considero que la tecnología es una herramienta formidable para elevar la calidad de vida de las personas. Creo que a través de la ingeniería de sistemas, poseo la capacidad de idear soluciones innovadoras capaces de generar un impacto positivo en la sociedad, proporcionando mejoras sustanciales en varios aspectos de la rutina diaria.</p>
+                        </div>
+                    </article>
+
+                    <article class="questions_padding">
+                        <div class="questions_answer">
+                            <h3 class="questions_title">¿Cual es mi historial academico?
+                                <span class="questions_arrow">
+                                    <img src="icons/arrow.svg" class="questions_img">
+                                </span>
+                            </h3>
+
+                            <p class="questions_show">Egresado del Instituto Técnnico Industrial "Lucio Pabón Nuñez" en Ocaña Norte de Santander, graduado bajo el titulo "Bachiller técnico en diseño e integracion multimedia. Inicié mis estudios en la universidad Francisco de Paula Santander seccional Ocaña en el primero semetres del año 2023 y con proyección a finalizar mi carrera profesional en el año 2028 bajo el titulo "Ingeniero de sistemas".</p>
+                        </div>
+                    </article>
+
+                    <article class="questions_padding">
+                        <div class="questions_answer">
+                            <h3 class="questions_title">¿Como veo mi futuro como Ingeniero de Sistemas?
+                                <span class="questions_arrow">
+                                    <img src="icons/arrow.svg" class="questions_img">
+                                </span>
+                            </h3>
+
+                            <p class="questions_show">Contemplo con entusiasmo y resolución mi porvenir como ingeniero de sistemas. Visualizo la ocasión de aplicar mis habilidades y conocimientos para enfrentar desafíos tecnológicos, concebir soluciones innovadoras y aportar al avance de la sociedad. Como profesional en este ámbito, me veo participando en proyectos que no solo sean técnicamente avanzados, sino que también generen un impacto significativo en la mejora de la calidad de vida de las personas. Aspiro a seguir cultivando mi aprendizaje, adaptándome a las nuevas tecnologías y desempeñando un papel fundamental en la evolución y transformación del ámbito digital. Mi visión abarca no solo el crecimiento individual y profesional, sino también la posibilidad de contribuir al bienestar colectivo a través de la ingeniería de sistemas.</p>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="questions_offer">
+                    <h2 class="subtitle">¿Tienes alguna duda?</h2>
+                    <p class="questions_copy">Comunicate conmigo y con mucho gusto te atendere.</p>
+                    <a href="#" class="cta">Comunicarse</a>
+                </section>
             </div>
         </section>
     </main>
+
+    <footer class="footer" id="social_media">
+        <section class="footer_container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer_title">Steven Chacón</h2>
+                <ul class="nav_link nav_link--footer">
+                    <!-- (li.nav_items>a.nav_links{Option})*4 -->
+                    <li class="nav_items">
+                        <a href="#about" class="nav_links">Acerca de</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#contact" class="nav_links">Contacto</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#references" class="nav_links">Referencias</a>
+                    </li>
+                    <li class="nav_items">
+                        <a href="#questions" class="nav_links">Preguntas</a>
+                    </li>
+                </ul>
+            </nav>
+            <form class="footer_form">
+                <h2 class="footer_info">Suscribete</h2>
+                <!-- .footer_inputs>input:email.footer_input+input:submit.footer_submit -->
+                <div class="footer_inputs">
+                    <input type="email" class="footer_input" placeholder="Escribe tu E-Mail">
+                    <input type="submit" value="Contáctanos" class="footer_submit">
+                </div>
+            </form>
+        </section>
+        <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="https://www.facebook.com/profile.php?id=100084204250265" class="footer_icon"><img src="icons/facebook.svg" alt="Icon Facebook" class="footer_img"></a>
+                <a href="https://www.instagram.com/toshiro_506/" class="footer_icon"><img src="icons/instagram.svg" alt="Icon Instagram" class="footer_img"></a>
+                <a href="twitter.com" class="footer_icon"><img src="icons/twitter.svg" alt="Icon Twitter" class="footer_img"></a>
+            </div>
+            <h3 class="footer_copyright">Todos los derechos reservados &copy; Steeven Chacón</h3>
+        </section>
+    </footer>
+
+
+    <script src="js/slider.js"></script>
+    <script src="js/questions.js"></script>
 </body>
 </html>

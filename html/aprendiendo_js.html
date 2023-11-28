@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="load_page()">
+    <label for="" id="box_one"></label>
+    <label for="" id="box_two"></label>
+    <br>
+    <input type="text" id="box_onblur" onblur="box_onblur()" placeholder="Escriba algo aqui" size="30">
+    <button id="change_color">CAMBIAR COLOR</button>
+
+    <br>
+    <form id="form_register">
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" size="30" placeholder="Escriba sus nombres" onblur="validate()">
+        <br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" size="30" placeholder="Escriba sus apellidos">
+        <br>
+        <button type="submit">Registrarse</button>
+        <button type="reset">Limpiar</button>
+        <br>
+        <label for="validation"></label>
+    </form>
+
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/functions.js"></script>
+    <script>
+        // alert("Steeven Chacón");
+        console.log("BIENVENIDO");
+    </script>
+</body>
+</html>
