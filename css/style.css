@@ -406,3 +406,171 @@ body{
 .footer_img{
     width: 30px;
 }
+
+
+@media (max-width: 992px) {
+    .nav_menu {
+        display: block;
+        z-index: 999;
+    }
+
+    .nav_link {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background-color: rgba(0, 26, 73, 0.95);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+        transition: right 0.3s ease-in-out;
+        z-index: 998;
+    }
+
+    .nav_link.show {
+        right: 0;
+    }
+
+    .nav_items {
+        list-style: none;
+    }
+
+    .nav_links {
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    .nav_close {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        width: 25px;
+    }
+}
+    @media (max-width: 768px) {
+    
+    .person {
+        grid-template-rows: 80px 1fr;
+       
+    }
+
+    .person::before{
+        clip-path: none;
+    }
+
+    .person_title {
+        font-size: 2.2rem;
+    }
+
+    .person_paragraph {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+
+    .about_main {
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
+
+    .about_icons {
+        width: 100%;
+    }
+
+    .options_container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .options_picture {
+        order: -1;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .options_texts {
+        padding: 0 20px;
+    }
+
+    .testimony_container {
+        grid-template-columns: 30px 1fr 30px;
+    }
+
+    .testimony_body {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .testimony_img {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .testimony_texts {
+        padding: 0 20px;
+    }
+
+
+    .questions_copy {
+        width: 90%;
+    }
+
+    
+    .footer_container {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5em;
+    }
+
+    .footer_inputs {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer_input {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .footer_submit {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .person_title {
+        font-size: 1.8rem;
+    }
+
+    .person_paragraph {
+        font-size: 0.9rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+    .about_paragraph,
+    .options_paragraph,
+    .questions_show {
+        font-size: 0.9rem;
+    }
+
+    .testimony_img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .options_picture {
+        max-width: 100%;
+    }
+
+    .footer_title {
+        font-size: 1.5rem;
+    }
+}
